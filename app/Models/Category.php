@@ -17,8 +17,10 @@ class Category extends Model
     ];
 
     protected $dateFormat = 'd-m-Y H:i:s';
+
     /**
      * Get the posts for the category
+     *
      * @return \Illuminate\Database\Eloquent\Relations\HasMany
      */
     public function posts()
