@@ -19,6 +19,7 @@ class Post extends Model
 
     /**
      * Get the category that owns the post
+     *
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      */
     public function category()
